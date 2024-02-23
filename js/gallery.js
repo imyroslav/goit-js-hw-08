@@ -82,11 +82,14 @@ list.insertAdjacentHTML("beforeend", markupGallery);
 list.style.display = "flex";
 list.style.flexDirection = "row";
 list.style.flexWrap = "wrap";
+list.style.width = "1440px"
+list.style.height = "848px"
 list.style.gap = "48px 24px";
-list.style.padding = "100px 150px";
+list.style.padding = "100px 156px";
+list.style.top = "-679px"
+list.style.left = "-792px"
 
 
- 
 const linkGallery = document.querySelector(".gallery-link");
 list.addEventListener("click", handleLinkClick);
 function handleLinkClick(event) {
@@ -97,7 +100,7 @@ function handleLinkClick(event) {
     alt="${event.target.alt}">`
   )
   instance.show();
-  console.log(event.target.dataset.source);
+  // console.log(event.target.dataset.source);
 }
 
 
