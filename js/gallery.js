@@ -88,6 +88,7 @@ list.style.gap = "48px 24px";
 list.style.padding = "100px 156px";
 list.style.top = "-679px"
 list.style.left = "-792px"
+list.style.listStyleType = "none";
 
 
 const linkGallery = document.querySelector(".gallery-link");
